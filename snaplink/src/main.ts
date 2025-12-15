@@ -17,7 +17,7 @@ async function bootstrap() {
   );
 
   app.enableCors({
-    origin: ['https://snap-link-frontend-nine.vercel.app/'], 
+    origin: ['https://snap-link-frontend-nine.vercel.app'], 
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   });
